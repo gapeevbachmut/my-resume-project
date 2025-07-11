@@ -5,6 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
@@ -19,34 +22,35 @@
     <div class="main-content">
       <!-- my info -->
       <div class="my-info">
-        <h2 class="my-profession">Навчаюсь на Fullstack Developer</h2>
-        <h1 class="my-name">Andrii Hapieiev <br />Андрій Гапєєв</h1>
+        <h2 class="my-profession">Студент: Курс Fullstack - розробник. Від компанії <a
+            href="https://goit.global/ua/courses/fullstack/" class="goit" target="_blank">GoIt</a>
+        </h2>
+
+        <h1 class="my-name">Andrii Hapieiev <span class="my-name-ua">Андрій Гапєєв</span></h1>
         <p class="my-descr">
-          Життя змінилося, потрібно опановувати нову професію. Обрав курс
-          Fullstack Developer. Навчання починається 20 січня 2025 року. В мене
-          все вийде!!!. Я все зможу!!!
+          Навчаюсь на Fullstack Developer з повним циклом створення
+          сучасних вебсайтів та вебзастосунків з нуля
         </p>
       </div>
       <!-- my projects -->
       <div class="my-projects-container">
         <h3 class="my-projects-title">Projects</h3>
-        <h5>Все це попереду</h5>
+        <h5>Мої проекти</h5>
         <ol class="my-projects-list">
           <li class="my-projects-item">
-            <a class="my-projects-item-link" href="https://soap.for.me/" target="_blank">
-              https://soap.for.me/</a>
-            <span class="my-projects-item-tech">................................................ [ HTML5, CSS3
+            <a class="my-projects-item-link" href="https://github.com/gapeevbachmut/Here-We-Go-Again" target="_blank">
+              Командний проект</a>
+            <span class="my-projects-item-tech">...моя секція - "About us"... [ HTML5, CSS3]</span>
+          </li>
+          <li class="my-projects-item">
+            <a class="my-projects-item-link" href="https://github.com/gapeevbachmut/BookStack-Devs-05" target="_blank">
+              Командний проект</a>
+            <span class="my-projects-item-tech">...моя секція - modal-window... [ JavaScript
               ]</span>
           </li>
           <li class="my-projects-item">
-            <a class="my-projects-item-link" href="https://soap.for.me/" target="_blank">
-              https://soap.for.me/</a>
-            <span class="my-projects-item-tech">................................................ [ JavaScript
-              ]</span>
-          </li>
-          <li class="my-projects-item">
-            <a class="my-projects-item-link" href="https://soap.for.me/" target="_blank">
-              https://soap.for.me/</a>
+            <a class="my-projects-item-link" href="" target="_blank">
+              .......</a>
             <span class="my-projects-item-tech">................................................ [ React.js,
               Node.js ]</span>
           </li>
@@ -93,7 +97,7 @@
           </h4>
           <p class="work-experiance-period">
             2016 - 2022
-            <span class="work-experiance-period-separator">|</span> Bachmut,
+            <span class="work-experiance-period-separator">|</span> Bakhmut,
             Ukraine
           </p>
           <ul class="work-experiance-duties-list">
@@ -118,7 +122,7 @@
           </h4>
           <p class="work-experiance-period">
             1999 - 2015
-            <span class="work-experiance-period-separator">|</span> Bachmut,
+            <span class="work-experiance-period-separator">|</span> Bakhmut,
             Ukraine
           </p>
           <ul class="work-experiance-duties-list">
@@ -151,7 +155,7 @@
     </div>
     <!-- sidebar -->
     <aside class="sidebar">
-      <img class="my-photo" width="300px" src="img/my-foto.bmp" alt="my foto" />
+      <img class="my-photo" width="300px" src="img/my-foto.jpg" alt="my foto" />
       <div class="sidebar-content-row">
         <!-- contacts -->
         <div class="contacts-container">
@@ -167,7 +171,7 @@
         </div>
         <div class="skills-row">
           <!-- main for me -->
-          <h4>Це я вивчаю зараз</h4>
+          <h4>Навчання</h4>
           <div>
             <div class="Skills-container">
               <h3 class="Skills-title">Tech Skills</h3>
@@ -175,47 +179,37 @@
                 <li class="Skills-list-item">HTML5</li>
                 <li class="Skills-list-item">CSS3</li>
                 <li class="Skills-list-item">GIT</li>
+                <li class="Skills-list-item">JavaScript</li>
+                <li class="Skills-list-item">TypeScript</li>
+
               </ul>
             </div>
-
             <div class="Skills-container">
               <h3 class="Skills-title">Soft Skills</h3>
               <ul class="Skills-list">
                 <li class="Skills-list-item">Scrum</li>
-                <li class="Skills-list-item">GIT</li>
                 <li class="Skills-list-item">Teamwork</li>
+                <li class="Skills-list-item">Agile</li>
+                <li class="Skills-list-item">GIT</li>
+                <li class="Skills-list-item">GTD</li>
               </ul>
             </div>
 
           </div>
 
           <!-- future -->
-          <h5>Це я маю вивчити</h5>
+          <h5>Це я ще вивчаю</h5>
           <div>
             <!-- Tech Skills -->
             <div class="Skills-container">
               <h3 class="Skills-title">Tech Skills</h3>
               <ul class="Skills-list">
-                <li class="Skills-list-item">HTML5</li>
-                <li class="Skills-list-item">CSS3</li>
-                <li class="Skills-list-item">GIT</li>
                 <li class="Skills-list-item">WebPack</li>
-                <li class="Skills-list-item">JavaScript</li>
                 <li class="Skills-list-item">React.js</li>
                 <li class="Skills-list-item">Node.js</li>
               </ul>
             </div>
-            <!-- Soft Skills -->
-            <div class="Skills-container">
-              <h3 class="Skills-title">Soft Skills</h3>
-              <ul class="Skills-list">
-                <li class="Skills-list-item">Scrum</li>
-                <li class="Skills-list-item">Agile</li>
-                <li class="Skills-list-item">GIT</li>
-                <li class="Skills-list-item">GTD</li>
-                <li class="Skills-list-item">Teamwork</li>
-              </ul>
-            </div>
+
           </div>
         </div>
       </div>
