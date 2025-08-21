@@ -14,3 +14,5 @@ JavaScript
 React.js + TypeScript for React
 
 Node.js
+
+додати лінкедін гітхаб фавіконку
